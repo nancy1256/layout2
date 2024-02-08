@@ -1,0 +1,332 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0rem;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.titlebar {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    height: 1rem;
+    width: 100%;
+}
+
+.titlebar h6 {
+    color: white;
+    margin-left: 0.8rem;
+}
+
+
+.titlebar .lang {
+    margin-left: 50rem;
+
+
+}
+
+.lang select {
+    background-color: #000;
+    color: white;
+    height: 13px;
+    border-color: #000;
+}
+
+.titlebar section {
+    margin-left: 3rem;
+
+}
+
+.titlebar select {
+    background-color: #000;
+    color: white;
+    height: 15px;
+    border-color: black;
+}
+
+.navbar {
+    background-color: rgb(248, 247, 247);
+    margin-left: 2rem;
+    height: 4rem;
+    margin-top: 1rem;
+    width: 95%
+}
+
+.navbar nav h2 {
+    margin-left: -10rem;
+}
+
+.navbar nav,
+li {
+    display: flex;
+    margin-left: 11.7rem;
+    gap: 1rem;
+
+}
+
+.navbar li,
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.navbar select {
+    border-color: rgb(248, 247, 247);
+    background-color: rgb(248, 247, 247);
+    width: 5rem;
+    color: black;
+}
+
+.icon {
+    margin-left: 18rem;
+
+}
+
+.icon i {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+
+#cart {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    width: 3rem;
+
+}
+
+.container {
+    background-color: rgb(233, 231, 231);
+    height: 36rem;
+    align-items: center;
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    width: 95%;
+}
+
+.container .con-img img {
+    filter: drop-shadow(27px 5px 8px rgb(90, 90, 90));
+    margin-left: 2rem;
+
+}
+
+.con-text {
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+}
+
+.container h1 {
+    letter-spacing: 0.2rem;
+    font-size: 3rem;
+}
+
+p {
+    text-align: center;
+    margin-top: -2rem;
+    font-size: 1.4rem;
+}
+
+.container button {
+    background-color: black;
+    color: rgb(197, 196, 196);
+    margin-left: 10rem;
+}
+
+.container2 {
+    margin-top: 2rem;
+    align-items: center;
+    display: flex;
+    margin-left: 2rem;
+    gap: 5rem;
+}
+
+.container2 .card {
+    display: flex;
+    align-items: center;
+    background-color: rgb(233, 231, 231);
+    padding: 1rem;
+}
+
+.container2 .card img {
+    width: 13rem;
+    height: 14rem;
+
+}
+
+.container2 .card button {
+    background-color: black;
+    color: rgb(197, 196, 196);
+
+}
+
+.container2 .card .img2 {
+    width: 13rem;
+    height: 14rem;
+
+}
+
+.container2 .card button {
+    background-color: black;
+    color: rgb(197, 196, 196);
+
+}
+
+.container2 .card .img3 {
+    width: 14rem;
+    height: 13rem;
+
+
+}
+
+.container2 .card button {
+    background-color: black;
+    color: rgb(197, 196, 196);
+
+
+}
+
+.container2 .card .img3-text {
+    margin-left: 2rem;
+
+}
+
+.line {
+    align-items: center;
+    display: flex;
+    width: 40%;
+    margin-left: 30rem;
+}
+
+.line hr {
+    width: 40%;
+}
+
+.line i {
+    font-size: 2rem;
+
+}
+
+.list {
+    margin-left: 38rem;
+    margin-top: 2rem;
+
+
+}
+
+.list button {
+    height: 2rem;
+    margin-left: 1rem;
+}
+
+.list button:hover {
+    background-color: black;
+    color: white;
+}
+
+.container3{
+    display: flex;
+    gap: 0.rem;
+}
+
+.container3 .sheet {
+    align-items: center;
+
+}
+
+
+.container3 .sheet img {
+    border: px solid;
+    height: 13rem;
+    margin-left: 10rem;
+    padding: 1rem;
+}
+.container3 .sheet .box-text1{
+    margin-left: 13rem;
+    font-size: large;
+    
+}
+.sheet .buy:hover{
+    color: white;
+    background-color: black;
+
+
+}
+
+.container3 .sheet {
+    align-items: center;
+    margin-top: 1rem;
+}
+
+
+.container3 .sheet img {
+    border: 0.5px solid;
+    height: 13rem;
+    margin-left: 4rem;
+    padding: 1rem;
+}
+.container3 .sheet .box-text1{
+    margin-left: 8rem;
+    font-size: large;
+    
+}
+.sheet .buy:hover{
+    color: white;
+    background-color: black;
+
+
+}
+.container3{
+    display: flex;
+    gap: 0.rem;
+}
+
+.container3 .sheet {
+    align-items: center;
+
+}
+
+
+.container3 .sheet img {
+    border: px solid;
+    height: 13rem;
+    margin-left: 10rem;
+    padding: 1rem;
+}
+.container3 .sheet .box-text1{
+    margin-left: 13rem;
+    font-size: large;
+    
+}
+.sheet .buy:hover{
+    color: white;
+    background-color: black;
+
+
+}
+
+.container3 .sheet {
+    align-items: center;
+    margin-top: 1rem;
+}
+
+
+.container3 .sheet img {
+    border: 0.5px solid rgb(197, 196, 196);
+    height: 13rem;
+    margin-left: 4rem;
+    padding: 1rem;
+}
+.container3 .sheet .box-text1{
+    margin-left: 8rem;
+    font-size: large;
+    
+}
+.sheet .buy:hover{
+    color: white;
+    background-color: black;
