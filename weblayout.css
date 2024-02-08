@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+    border: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+nav{
+    background-color:goldenrod;
+    height: 7rem;
+}
+.background{
+    background-color: goldenrod;
+    height: 25rem;
+    margin-top: 2rem;
+}
+.container section{
+    display: inline-flex;
+    padding-left: 15rem;
+    padding-top: 4rem;
+    gap: 4rem;
+}
+.square{
+    width: 18rem;
+    height: 18rem;
+    background-color: goldenrod;
+    border-radius: 1px;
+
+}
+.circle{
+    border-radius: 100%;
+
+}
+footer{
+    background-color:goldenrod;
+    height: 10rem;
+    margin-top: 3rem;
+}
+@media screen and (max-width:786px){
+    .container section{
+        display: inline-grid;
+        padding-left: 3rem;
+    }
+}
+    
+
+
+
